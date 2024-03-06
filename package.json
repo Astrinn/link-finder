@@ -1,0 +1,32 @@
+{
+  "name": "extralink",
+  "version": "1.0.0",
+  "description": "A tool to extract all URLs that the desired file has.",
+  "main": "./cli.js",
+  "type": "module",
+  "preferGlobal": true,
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+  },
+  "keywords": ["markdown", "URL", "Extract URL", "LINKS"],
+  "author": "Hiago Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Astrinn/Estudos/issues"
+  },
+  "homepage": "https://github.com/Astrinn/Estudos/tree/master/Programa%C3%A7%C3%A3o/JAVA.S/project-007%20software%20encontra%20links%20(bibliotecas_curso%20NodeJS)",
+  "dependencies": {
+    "chalk": "5.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "bin": {
+    "<nome-da-lib>": "./cli.js"
+  }
+}
